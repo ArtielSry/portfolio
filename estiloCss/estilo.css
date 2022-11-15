@@ -591,6 +591,8 @@ textarea {
 		width: 250px;
 	}
 	.container ul {
+		
+		height: 62%;
 		display: flex;
 		flex-wrap: wrap;
 	}
