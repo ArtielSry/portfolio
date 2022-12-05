@@ -432,11 +432,6 @@ textarea {
 	border-bottom: 1px solid #ff0571 !important;
 } ----------*/
 
-@media screen and (min-width:  900px){
-	.programs h2 {
-		margin-bottom: 90px;
-}
-}
 /*------------------ responsive mobile --------------------*/
 @media screen and (max-width:  900px){
 	.section-about{
