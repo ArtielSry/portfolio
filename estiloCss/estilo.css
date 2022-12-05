@@ -436,6 +436,7 @@ textarea {
 	.programs h2 {
 		margin-bottom: 90px;
 }
+}
 /*------------------ responsive mobile --------------------*/
 @media screen and (max-width:  900px){
 	.section-about{
