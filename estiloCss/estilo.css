@@ -227,7 +227,7 @@ span {
 
 .container ul {
 	width: 100%;
-	height: 62%;
+	height: 35%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -592,11 +592,12 @@ textarea {
 	}
 	.container ul {
 		
-		height: 62%;
+		height: 40%;
 		display: flex;
 		flex-wrap: wrap;
 	}
 	.container ul li {
+		padding: 5px;
 		width: 50px;
 		height: 50px;
 	}
