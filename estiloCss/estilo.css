@@ -214,7 +214,7 @@ span {
 }
 .programs h2 {
 	text-align: left;
-	margin-bottom: 30px;
+	margin-bottom: 95px;
 	font-size: 4em;
 }
 .container {
@@ -584,6 +584,7 @@ textarea {
 	.programs h2 {
 		text-align: center;
 		margin-top: 90px;
+		margin-bottom: 30px;
 		font-size: var(--tituloR);
 	}
 	.container {
