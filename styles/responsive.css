@@ -151,6 +151,7 @@
   .container-software,
   .subcategory {
     padding: 1rem;
+    padding-left: 0;
     margin: 0;
   }
 
@@ -242,7 +243,6 @@
 
   .container-card {
     width: 100%;
-    padding: 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
 
