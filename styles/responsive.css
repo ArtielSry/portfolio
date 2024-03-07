@@ -1,0 +1,298 @@
+:root {
+  --primary: #7e67b5;
+  --hover: rgb(80, 38, 108);
+  --white: #ffffff;
+  --black: #121314;
+  --gray: #8c8c8c;
+  --darkGray: #323232;
+  --fontPrimary: primary;
+  --fontSecondary: secondary;
+}
+
+/* 950px */
+@media screen and (max-width: 1150px) {
+  .index-about,
+  .main-about {
+    width: 100%;
+    margin-top: 6rem;
+  }
+
+  .other {
+    padding-left: 5rem;
+  }
+
+  .main {
+    width: 100%;
+    padding: 5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+  }
+  .btn-1 {
+    display: none;
+  }
+  .index {
+    height: auto;
+    justify-content: start;
+  }
+
+  .container-me {
+    flex-wrap: wrap;
+  }
+
+  .container-card {
+    width: 600px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    width: 300px;
+  }
+  .footer {
+    padding: 5rem;
+  }
+  .footer_container {
+    justify-content: center;
+  }
+}
+
+/* 800px */
+@media screen and (max-width: 900px) {
+  .nav-left {
+    display: none;
+  }
+  /*menu toggle */
+  .nav {
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .menu_toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white);
+  }
+
+  .menu_toggle.activeNav .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .menu_toggle.activeNav .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .menu_toggle.activeNav .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav__ul {
+    position: absolute;
+    z-index: 99;
+    top: -100vh;
+    gap: 0;
+    height: 100vh;
+    left: 0;
+    flex-direction: column;
+    color: var(--gray);
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .nav__ul_li {
+    margin: 2.5rem;
+  }
+
+  .nav__ul_li a {
+    font-size: 1.5rem;
+  }
+
+  .nav__ul.activeNav {
+    top: 3.7rem;
+    position: absolute;
+    z-index: 99;
+    margin-left: 0rem;
+    background-color: var(--black);
+  }
+
+  .footer_container {
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links ul li a {
+    padding: 10px;
+  }
+
+  .footer {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .index {
+    min-height: auto;
+  }
+  .main {
+    margin-bottom: 0;
+  }
+
+  .other {
+    padding: 1rem;
+  }
+  .container-software,
+  .subcategory {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .btn-up {
+    display: none;
+  }
+
+  .btn-2 {
+    padding: 10px;
+    margin-top: -1.35rem;
+  }
+
+  .hidden {
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .container-card {
+    margin: 0;
+  }
+}
+/* 670px */
+@media screen and (max-width: 600px) {
+  .container-topic {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-topic span {
+    display: none;
+  }
+
+  .title-container {
+    padding: 1rem;
+    align-items: start;
+    justify-content: left;
+  }
+
+  .index-about {
+    margin: 0;
+  }
+  .index h2 {
+    margin-top: 1rem;
+  }
+  .main-about {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .main {
+    padding-top: 2rem;
+    padding-right: 1.25rem;
+    padding-left: 0;
+
+    text-align: left;
+  }
+  .other {
+    margin-bottom: 0;
+  }
+
+  .container-postTitle {
+    align-items: start;
+  }
+
+  .main-about p,
+  .index p {
+    width: 90%;
+    margin: 1.25rem 0;
+  }
+
+  .index p {
+    width: 90%;
+    margin: 0;
+  }
+
+  .main-about h1,
+  .main-about p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .links ul {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .container-card {
+    width: 100%;
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    height: 297px;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 5rem 3rem 4rem 1rem;
+  }
+  .links {
+    align-items: start;
+  }
+  .links ul {
+    align-items: start;
+  }
+
+  .container-line {
+    margin-top: 7rem;
+  }
+
+  .overflow {
+    margin-top: -40vh;
+  }
+
+  .container-titleDots h2 {
+    color: var(--gray);
+    text-align: left;
+    font-size: 35px;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .container-software li {
+    width: 50px;
+  }
+
+  .hidden {
+    margin-top: 0;
+    height: 50%;
+  }
+  .scroll_section {
+    height: 100%;
+  }
+
+  .no-margin {
+    width: 250px;
+    margin: 0 1rem;
+  }
+}
