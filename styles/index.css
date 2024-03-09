@@ -12,7 +12,7 @@
 
 :root {
   --primary: #7e67b5;
-  --hover: rgb(80, 38, 108);
+  --hover: #7e67b598;
   --white: #ffffff;
   --black: #121314;
   --gray: #8c8c8c;
@@ -383,6 +383,11 @@ button {
   border-radius: 5px;
 }
 
+.img {
+  width: 950px;
+  border-radius: 5px;
+}
+
 /* work */
 
 .container-card {
@@ -724,30 +729,6 @@ button {
   transition: 0.2s ease all;
 }
 .btn-2:hover {
-  background-color: var(--hover);
-}
-
-.btn-up {
-  color: var(--black);
-  position: fixed;
-  right: 5rem;
-  top: 90%;
-  z-index: 99;
-  padding: 10px;
-  border: none;
-  border-radius: 50%;
-  background-color: var(--primary);
-  cursor: pointer;
-  transition: 0.2s ease all;
-}
-
-.btn-up svg {
-  width: 40px;
-  height: 35px;
-  color: var(--white);
-}
-
-.btn-up:hover {
   background-color: var(--hover);
 }
 

@@ -1,6 +1,6 @@
 :root {
   --primary: #7e67b5;
-  --hover: rgb(80, 38, 108);
+  --hover: #7e67b598;
   --white: #ffffff;
   --black: #121314;
   --gray: #8c8c8c;
@@ -153,10 +153,6 @@
     padding: 1rem;
     padding-left: 0;
     margin: 0;
-  }
-
-  .btn-up {
-    display: none;
   }
 
   .btn-2 {
